@@ -1,6 +1,8 @@
-*{
+* {
   -ms-overflow-style: none;
+  background-color: rgb(17, 17, 17);
 }
+
 ::-webkit-scrollbar {
   display: none;
 }
