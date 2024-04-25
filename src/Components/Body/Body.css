@@ -1,0 +1,68 @@
+body {
+  margin-top: 47vh;
+  margin-left: -1vh;
+  background-color: rgb(17, 17, 17);
+  transition: all 1s;
+  width: 90vw;
+  filter: grayscale(0%);
+}
+
+body:hover {
+  transform: scale(1.005);
+  transition: all 1s;
+}
+
+h1 {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 14em;
+  text-align: center;
+  margin-left: 0.5em;
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 0.9;
+  background: url(spaceBg2.png);
+  background-size: cover;
+  background-attachment: local;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(80%);
+  transition: all 1s;
+}
+
+h1:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(10%);
+  transition: all 1s;
+}
+
+.topcorner {
+  margin-bottom: -2.1em;
+  font-size: 8em;
+  text-align: left;
+  background: url(spaceBg2.png);
+  background-size: cover;
+  background-attachment: local;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(60%);
+}
+
+.bottomcorner {
+  margin-top: -2.1em;
+  margin-left: 12em;
+  font-size: 8em;
+  text-align: left;
+  background: url(spaceBg2.png);
+  background-size: cover;
+  background-attachment: local;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(60%);
+}
