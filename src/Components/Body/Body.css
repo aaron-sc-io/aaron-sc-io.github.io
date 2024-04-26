@@ -1,52 +1,47 @@
 body {
-  margin-top: 47vh;
-  margin-left: -1vh;
-  transition: all 1s;
-}
-
-body:hover {
-  transform: scale(1.005);
-  transition: all 1s;
+  margin-top: 28em;
+  margin-left: -0.5em;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 h1 {
   font-family: arial;
   font-weight: bold;
   font-size: 12em;
-  text-align: center;
   margin-left: 0.6em;
   text-transform: uppercase;
   text-align: left;
   line-height: 0.9;
-  background: url(spaceBg2.png);
+  background: url(spaceBg.png);
   background-size: cover;
   background-attachment: fixed;
-  background-clip: text;
+  background-clip: padding-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: grayscale(0%);
   -webkit-filter: grayscale(80%);
-  transition: all 1s;
+  transition: all 1.5s;
 }
 
 h1:hover {
   filter: grayscale(0%);
   -webkit-filter: grayscale(10%);
-  transition: all 1s;
 }
 
 .topcorner {
   margin-bottom: -2em;
   font-size: 7em;
   text-align: left;
-  background: url(spaceBg2.png);
+  background: url(spaceBg.png);
   background-size: cover;
   background-attachment: fixed;
-  background-clip: text;
+  background-clip: padding-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: grayscale(0%);
-  -webkit-filter: grayscale(60%);
+  -webkit-filter: grayscale(80%);
+  transition: all 1.5s;
 }
 
 .bottomcorner {
@@ -54,12 +49,13 @@ h1:hover {
   margin-left: 12.2em;
   font-size: 7em;
   text-align: left;
-  background: url(spaceBg2.png);
+  background: url(spaceBg.png);
   background-size: cover;
   background-attachment: fixed;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: grayscale(0%);
-  -webkit-filter: grayscale(60%);
+  -webkit-filter: grayscale(80%);
+  transition: all 1.5s;
 }
