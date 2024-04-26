@@ -1,6 +1,7 @@
 * {
   -ms-overflow-style: none;
   background-color: rgb(17, 17, 17);
+  /* cursor: none; */
 }
 
 ::-webkit-scrollbar {

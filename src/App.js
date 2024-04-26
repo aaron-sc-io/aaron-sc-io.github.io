@@ -1,22 +1,30 @@
 // STYLING
 import './App.css'
+import { Box } from '@mui/material';
 
 // COMPONENTS
-import Body from "./Components/Body/Body";
+import AerynBG from './Components/AerynBG/AerynBG';
+import Header from './Components/Header/Header';
 
-// REACT
-import { useState, useEffect } from 'react';
+// // REACT
+// import { useState, useEffect } from 'react';
+// import Header from './Components/Header/Header';
 
 const App = () => {
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
+  // useEffect(() => {
 
-  }, [setLoading]);
+  // }, [setLoading]);
 
   return (
-    <div className="App">
-      <Body />
+    <div className='App'>
+      <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', mt: '10px' }}>
+        <Box sx={{ display: 'flex', alignSelf: 'center' }}>
+          <Header />
+        </Box>
+        <AerynBG />
+      </Box>
     </div>
   );
 }
