@@ -1,31 +1,47 @@
 // STYLING
 import './App.css'
-import { Box } from '@mui/material';
+import Box from '@mui/material/Box';
+import Grid from '@mui/material/Grid';
 
 // COMPONENTS
 import AerynBG from './Components/AerynBG/AerynBG';
 import Header from './Components/Header/Header';
 
-// // REACT
-// import { useState, useEffect } from 'react';
-// import Header from './Components/Header/Header';
+// REACT
+import { useState, useEffect } from 'react';
 
 const App = () => {
-  // const [loading, setLoading] = useState(true);
-
-  // useEffect(() => {
-
-  // }, [setLoading]);
-
   return (
     <div className='App'>
-      <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', mt: '10px' }}>
-        <Box sx={{ display: 'flex', alignSelf: 'center' }}>
-          <Header />
-        </Box>
-        <AerynBG />
-      </Box>
-    </div>
+      <Grid container>
+          <Grid item xs={12}>
+            <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', my: '1em' }}>
+              <Header />
+            </Box>
+          </Grid>
+          <Grid item xs={2} />
+            <Grid item xs={8}>
+              <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', mt: '12.5%' }}>
+                <AerynBG id='ligma1'/>
+              </Box>
+            </Grid>
+          <Grid item xs={2} />
+          <Grid item xs={2} />
+            <Grid item xs={8}>
+              <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', mt: '12.5%' }}>
+                <AerynBG id='ligma2' />
+              </Box>
+            </Grid>
+          <Grid item xs={2} />
+          <Grid item xs={2} />
+            <Grid item xs={8}>
+              <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', mt: '12.5%' }}>
+                <AerynBG id='ligma3'/>
+              </Box>
+            </Grid>
+          <Grid item xs={2} />
+        </Grid>
+  </div>
   );
 }
 

@@ -1,6 +1,8 @@
-* {
-  -ms-overflow-style: none;
+html, body {
+  /* Background Color and Filling */
   background-color: rgb(17, 17, 17);
+  margin: 0px;
+  -ms-overflow-style: none;
   /* cursor: none; */
 }
 
