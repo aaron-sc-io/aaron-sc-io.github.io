@@ -1,19 +1,26 @@
-//import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import './NavItem.css'
 
 const NavItem = ({ title, linkRef }) => {
-  console.log(title);
+  
+  const handleClick = () => {
+    console.log(linkRef);
+  };
   
   return (
     <> 
       <button
-        class='new-Button'> 
+        class='new-Button'
+        onClick={handleClick}> 
           {title.toUpperCase()}
       </button>
     </>
   );
 }
 
-//Header.propTypes = {}
+NavItem.propTypes = {
+  title: PropTypes.string,
+  linkRef: PropTypes.string
+}
 
 export default NavItem;
